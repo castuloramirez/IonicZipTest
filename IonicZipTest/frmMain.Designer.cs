@@ -42,94 +42,94 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 21);
+            this.label1.Location = new System.Drawing.Point(23, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 15);
+            this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "选择压缩文件：";
+            this.label1.Text = "Select file:";
             // 
             // txtFilePath
             // 
-            this.txtFilePath.Location = new System.Drawing.Point(144, 18);
+            this.txtFilePath.Location = new System.Drawing.Point(144, 19);
             this.txtFilePath.Name = "txtFilePath";
             this.txtFilePath.ReadOnly = true;
-            this.txtFilePath.Size = new System.Drawing.Size(440, 25);
+            this.txtFilePath.Size = new System.Drawing.Size(440, 22);
             this.txtFilePath.TabIndex = 1;
             // 
             // btnSelectFile
             // 
             this.btnSelectFile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSelectFile.Location = new System.Drawing.Point(590, 17);
+            this.btnSelectFile.Location = new System.Drawing.Point(590, 18);
             this.btnSelectFile.Name = "btnSelectFile";
-            this.btnSelectFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectFile.Size = new System.Drawing.Size(75, 25);
             this.btnSelectFile.TabIndex = 2;
-            this.btnSelectFile.Text = "选   择";
+            this.btnSelectFile.Text = "choose";
             this.btnSelectFile.UseVisualStyleBackColor = true;
             this.btnSelectFile.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // btnTestCompress
             // 
-            this.btnTestCompress.Location = new System.Drawing.Point(26, 80);
+            this.btnTestCompress.Location = new System.Drawing.Point(26, 85);
             this.btnTestCompress.Name = "btnTestCompress";
-            this.btnTestCompress.Size = new System.Drawing.Size(83, 25);
+            this.btnTestCompress.Size = new System.Drawing.Size(83, 27);
             this.btnTestCompress.TabIndex = 3;
-            this.btnTestCompress.Text = "压缩测试";
+            this.btnTestCompress.Text = "Zip test";
             this.btnTestCompress.UseVisualStyleBackColor = true;
             this.btnTestCompress.Click += new System.EventHandler(this.btnTestCompress_Click);
             // 
             // btnTestDecompress
             // 
-            this.btnTestDecompress.Location = new System.Drawing.Point(132, 80);
+            this.btnTestDecompress.Location = new System.Drawing.Point(132, 85);
             this.btnTestDecompress.Name = "btnTestDecompress";
-            this.btnTestDecompress.Size = new System.Drawing.Size(114, 25);
+            this.btnTestDecompress.Size = new System.Drawing.Size(114, 27);
             this.btnTestDecompress.TabIndex = 4;
-            this.btnTestDecompress.Text = "解压缩测试";
+            this.btnTestDecompress.Text = "Unzip test";
             this.btnTestDecompress.UseVisualStyleBackColor = true;
             this.btnTestDecompress.Click += new System.EventHandler(this.btnTestDecompress_Click);
             // 
             // txtLog
             // 
-            this.txtLog.Location = new System.Drawing.Point(26, 111);
+            this.txtLog.Location = new System.Drawing.Point(26, 118);
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
             this.txtLog.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtLog.Size = new System.Drawing.Size(639, 187);
+            this.txtLog.Size = new System.Drawing.Size(639, 199);
             this.txtLog.TabIndex = 5;
             this.txtLog.Text = "";
             // 
             // btnSelectDir
             // 
             this.btnSelectDir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSelectDir.Location = new System.Drawing.Point(590, 48);
+            this.btnSelectDir.Location = new System.Drawing.Point(590, 51);
             this.btnSelectDir.Name = "btnSelectDir";
-            this.btnSelectDir.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectDir.Size = new System.Drawing.Size(75, 25);
             this.btnSelectDir.TabIndex = 8;
-            this.btnSelectDir.Text = "选   择";
+            this.btnSelectDir.Text = "choose";
             this.btnSelectDir.UseVisualStyleBackColor = true;
             this.btnSelectDir.Click += new System.EventHandler(this.btnSelectDir_Click);
             // 
             // txtDirPath
             // 
-            this.txtDirPath.Location = new System.Drawing.Point(144, 49);
+            this.txtDirPath.Location = new System.Drawing.Point(144, 52);
             this.txtDirPath.Name = "txtDirPath";
             this.txtDirPath.ReadOnly = true;
-            this.txtDirPath.Size = new System.Drawing.Size(440, 25);
+            this.txtDirPath.Size = new System.Drawing.Size(440, 22);
             this.txtDirPath.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 52);
+            this.label2.Location = new System.Drawing.Point(23, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 15);
+            this.label2.Size = new System.Drawing.Size(106, 20);
             this.label2.TabIndex = 6;
-            this.label2.Text = "选择压缩文件夹：";
+            this.label2.Text = "Select folder:";
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 315);
+            this.ClientSize = new System.Drawing.Size(684, 336);
             this.Controls.Add(this.btnSelectDir);
             this.Controls.Add(this.txtDirPath);
             this.Controls.Add(this.label2);
@@ -142,7 +142,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMain";
-            this.Text = "压缩解压功能测试";
+            this.Text = "Compression and decompression function test";
             this.ResumeLayout(false);
             this.PerformLayout();
 
